@@ -27,13 +27,13 @@ const Contect = () => {
               required
             />
             <textarea name="text" placeholder="Message"></textarea>
-            <div class="checkbox">
+            {/* <div class="checkbox">
               {" "}
               <lable>
                 <input type="checkbox" class="human_veryfication" />
                 Yes, I'm Human!
               </lable>
-            </div>
+            </div> */}
             <input type="submit" value="Send" id="button-blue" />
           </form>
           {/* </div> */}
