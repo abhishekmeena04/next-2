@@ -11,15 +11,17 @@ import eye from "../../assets/images/img11.jpeg";
 import flower from "../../assets/images/img12.jpeg";
 import ganesh from "../../assets/images/img13.jpeg";
 import girl from "../../assets/images/img1.jpeg";
-// import god from "../../assets/images/god.jpg";
-// import harry from "../../assets/images/harry.jpeg";
-// import krishna from "../../assets/images/krishna.jpg";
-// import meera from "../../assets/images/meera.jpg";
-// import pakshi from "../../assets/images/pakshi.jpeg";
+import god from "../../assets/images/img17.jpeg";
+import harry from "../../assets/images/img18.jpeg";
+import krishna from "../../assets/images/img19.jpeg";
+import meera from "../../assets/images/img20.jpeg";
+import pakshi from "../../assets/images/img21.jpeg";
 import pillar from "../../assets/images/img6.jpeg";
 import pink from "../../assets/images/img5.jpeg";
 import sun from "../../assets/images/img16.jpeg";
-// import think from "../../assets/images/think.jpg";
+import think from "../../assets/images/img22.jpeg";
+import thik from "../../assets/images/img23.jpeg";
+import thi from "../../assets/images/img24.jpeg";
 import topi from "../../assets/images/img15.jpeg";
 import women from "../../assets/images/img14.jpeg";
 import Box from "@mui/material/Box";
@@ -28,6 +30,18 @@ import ImageListItem from "@mui/material/ImageListItem";
 
 const itemData = [
   {
+    img: thi,
+    title: "Bed",
+  },
+  {
+    img: thik,
+    title: "Bed",
+  },
+  {
+    img: think,
+    title: "Bed",
+  },
+  {
     img: girl,
     title: "Bed",
   },
@@ -35,11 +49,10 @@ const itemData = [
     img: bottle,
     title: "Books",
   },
-  // +
-  // {
-  //   img: god,
-  //   title: "Kitchen",
-  // },
+  {
+    img: god,
+    title: "Kitchen",
+  },
   {
     img: sun,
     title: "Blinds",
@@ -48,10 +61,10 @@ const itemData = [
     img: topi,
     title: "Chairs",
   },
-  // {
-  //   img: krishna,
-  //   title: "Laptop",
-  // },
+  {
+    img: krishna,
+    title: "Laptop",
+  },
   {
     img: pink,
     title: "Doors",
@@ -68,10 +81,10 @@ const itemData = [
     img: cow,
     title: "Candle",
   },
-  // {
-  //   img: meera,
-  //   title: "Coffee table",
-  // },
+  {
+    img: meera,
+    title: "Coffee table",
+  },
   {
     img: chai,
     title: "Coffee",
@@ -96,14 +109,14 @@ const itemData = [
     img: ganesh,
     title: "Coffee table",
   },
-  // {
-  //   img: harry,
-  //   title: "Storage",
-  // },
-  // {
-  //   img: pakshi,
-  //   title: "Candle",
-  // },
+  {
+    img: harry,
+    title: "Storage",
+  },
+  {
+    img: pakshi,
+    title: "Candle",
+  },
   {
     img: flower,
     title: "Flower",
@@ -125,7 +138,11 @@ const gallery = () => {
           {itemData.map((val, i) => {
             return (
               <li key={i} className="rounded-2xl mt-5">
-                <img src={val.img} alt="" className="rounded-[15px]" />
+                <img
+                  src={val.img}
+                  alt=""
+                  className="rounded-[15px] gallery-img"
+                />
               </li>
             );
           })}

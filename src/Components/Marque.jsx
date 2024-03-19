@@ -4,8 +4,8 @@ const Marque = () => {
   return (
     <>
       <div className="container marquee md:w-[768px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px]">
-        <h3 className="font-lexend font-black leading-[23px] max-md:text-[19px] 2xl:text-[20px] max-md:w-[50%] 2xl:w-[25%]  ">
-          Security Updates::
+        <h3 className="mt-[-23px] font-lexend mt-[0px] font-black leading-[23px] max-md:text-[19px] 2xl:text-[20px] max-md:w-[50%] 2xl:w-[25%]  ">
+          Security Updates:
         </h3>
         <div className="marqueeq">
           <marquee

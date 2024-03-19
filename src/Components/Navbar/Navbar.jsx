@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="./">
               <div>
                 <img
-                  className="py-1"
+                  className="py-2 w-20"
                   src="/img.jpeg"
                   class="img-responsive"
                 ></img>

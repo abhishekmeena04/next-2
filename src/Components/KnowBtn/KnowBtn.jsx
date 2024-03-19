@@ -6,7 +6,7 @@ const Button = () => {
       <button
         type="button"
         className="btn btn-outline"
-        onclick="window.location.href='about-us.php'"
+        onclick=""
       >
         Know more
       </button>

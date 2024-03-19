@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-7xl px-8 md:w-[768px] lg:w-[970px] xl:w-[970px] 2xl:w-[1170px]">
           <div className="mx-auto grid w-full grid-cols-2 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
             <div>
-              <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
+              <h1 className="mr-[140px] w-5 font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Useful Links
               </h1>
               <ul className="space-y-1">
@@ -34,7 +34,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                    className=" list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
                   >
                     Services
                   </a>
@@ -58,7 +58,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
+              <h1 className="mr-[140px] w-5 font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Business Hours
               </h1>
               <ul className="space-y-1">
@@ -88,61 +88,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            {/* <div>
-              <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
-                Our Locations
-              </h1>
-              <ul className="space-y-1">
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    301, Vasant Vaibhav Residency,
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    Nisarg Colony,
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    Kashid Nagar,
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    Pimple Gurav,
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    Pune - 411061
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
-                  >
-                    Maharashtra, India
-                  </a>
-                </li>
-              </ul>
-            </div> */}
+
             <div>
               {/* <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Our Locations
@@ -173,7 +119,7 @@ const Footer = () => {
                   </a>
                 </li> */}
                 <li className="pt-[10px]">
-                  <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
+                  <h1 className="mr-[140px] w-10 font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                     Business Information
                   </h1>
                 </li>
@@ -220,7 +166,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
+              <h1 className="mr-[140px] w-2 font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Our Locations
               </h1>
               <ul className="space-y-1">
@@ -314,7 +260,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="" target="_blank">
+                  <a href="https://www.facebook.com" target="_blank">
                     <FaYoutube />
                   </a>
                 </li>
