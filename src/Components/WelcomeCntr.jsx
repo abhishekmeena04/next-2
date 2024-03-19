@@ -12,7 +12,7 @@ const WelcomeCntr = () => {
             Welcome to{" "}
             <span className="text-[#ff4c02]">
               The New National Security Services{" "}
-              <h1 className="text-[#2d4567]">SERVICE OFFERED BY OUR AGENCY</h1>
+              <h1 className="text-[#000000]">SERVICE OFFERED BY OUR AGENCY</h1>
             </span>
           </h1>
         </div>

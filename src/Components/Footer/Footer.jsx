@@ -88,7 +88,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Our Locations
               </h1>
@@ -142,7 +142,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div>
               {/* <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
                 Our Locations
@@ -174,7 +174,7 @@ const Footer = () => {
                 </li> */}
                 <li className="pt-[10px]">
                   <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
-                    International Branches
+                    Business Information
                   </h1>
                 </li>
                 <li>
@@ -182,7 +182,7 @@ const Footer = () => {
                     href="#"
                     className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
                   >
-                    London
+                    Business Category: Security Service & Consultants
                   </a>
                 </li>
                 <li>
@@ -190,7 +190,7 @@ const Footer = () => {
                     href="#"
                     className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
                   >
-                    USA
+                    Business Type: Service Provider
                   </a>
                 </li>
                 <li>
@@ -198,7 +198,78 @@ const Footer = () => {
                     href="#"
                     className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
                   >
-                    Dubai, UAE
+                    Business Since: 1989
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Working Days: All 7 Days
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Timings[IST]: 24 Hours
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h1 className="font-lexend font-black text-[18px] capitalize text-black mb-[1rem] leading-[23px]">
+                Our Locations
+              </h1>
+              <ul className="space-y-1">
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    301, Vasant Vaibhav Residency,
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Nisarg Colony,
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Kashid Nagar,
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Pimple Gurav,
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Pune - 411061
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
+                  >
+                    Maharashtra, India
                   </a>
                 </li>
               </ul>

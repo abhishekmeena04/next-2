@@ -55,23 +55,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="About"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                >
-                  About Us
-                </Link>
-                {/* <ul>
-                  <li>
-                    <a href="#">About Us</a>
-                  </li>
-                </ul> */}
-              </li>
-              <li>
-                <Link
                   to="WelcomeCntr"
                   activeClass="active"
                   spy={true}
@@ -80,6 +63,24 @@ const Navbar = () => {
                   duration={500}
                 >
                   Services
+                </Link>
+
+                {/* <ul>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                </ul> */}
+              </li>
+              <li>
+                <Link
+                  to="gallery"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={10}
+                  duration={500}
+                >
+                  Gallery
                 </Link>
                 {/* <ul>
                   <li>
@@ -165,14 +166,14 @@ const Navbar = () => {
               </li> */}
               <li>
                 <Link
-                  to="gallery"
+                  to="About"
                   activeClass="active"
                   spy={true}
                   smooth={true}
-                  offset={10}
+                  offset={0}
                   duration={500}
                 >
-                  Gallery
+                  About Us
                 </Link>
                 {/* <ul>
                   <li>
