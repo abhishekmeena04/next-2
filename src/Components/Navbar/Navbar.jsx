@@ -12,11 +12,7 @@ const Navbar = () => {
           <div id="logo">
             <a href="./">
               <div>
-                <img
-                  className="py-2 w-20"
-                  src="/img.jpeg"
-                  class="img-responsive"
-                ></img>
+                <img src="/img.jpeg" class="img-responsive w-16 py-2"></img>
               </div>
             </a>
           </div>

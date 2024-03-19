@@ -7,20 +7,20 @@ const HeaderTopCntr = () => {
   return (
     <>
       <section className="header-top flex content-center justify-center">
-        <div className="text-center font-black tracking-wider lg:flex md:justify-between lg:justify-around lg:w-[970px] xl:w-[1500px] 2xl:w-[1170px]">
-          <p className="top-header-text font-spartan text-center text-[13px] md:text-[15px]">
+        <div className="font-black tracking-wider lg:flex md:justify-between lg:justify-around lg:w-[970px] xl:w-[1500px] 2xl:w-[1170px]">
+          <p className="mt-3 top-header-text font-spartan text-center text-[13px] md:text-[15px]">
             Welcome to the New National Security Services
           </p>
           <div className="flex flex-col sm:flex-row md:flex-row items-center">
-            <div className="flex px-[15px] py-[2px]">
+            <div className="flex items-center justify-center px-[15px] py-[2px]">
               <div>
                 <a
                   href="tel:+91-20-65290835"
                   target="_top"
-                  className="flex items-center mr-[5px]"
+                  className="flex items-center mr-[0px]"
                 >
-                  <BsFillTelephoneFill className="mr-[1px]" />
-                  <span>+91-20-65290835</span>
+                  <BsFillTelephoneFill className="mr-[2px]" />
+                  <span className="mr-2">+91-20-65290835</span>
                 </a>
               </div>
 
@@ -29,10 +29,10 @@ const HeaderTopCntr = () => {
                 <a
                   href="tel: 8806360119"
                   target="_top"
-                  className="flex items-center mr-[1px]"
+                  className="flex items-center mr-[2px]"
                 >
-                  <BsFillTelephoneFill className="mr-[1px]" />
-                  8806360119
+                  <BsFillTelephoneFill className="mr-[2px]" />
+                  +8806360119
                 </a>
               </div>
             </div>

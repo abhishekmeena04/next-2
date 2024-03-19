@@ -128,7 +128,7 @@ const Footer = () => {
                     href="#"
                     className="list-group mb-[20px] pl-[0px] font-lexend text-[16px] py-[3px]"
                   >
-                    Business Category: Security Service & Consultants
+                    Business Category: Security, Service & Consultants
                   </a>
                 </li>
                 <li>
