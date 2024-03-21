@@ -34,8 +34,8 @@ body {
   src: local("roboto"), url("./assets//fonts//Roboto.ttf") format("woff");
 }
 .header-top {
-  background: linear-gradient(90deg, #ff4c02 0%, #ff8c02 100%);
-  color: #fff;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  color: #000000;
   padding: 8px 15px;
   /* margin: 0 auto; */
 }
@@ -94,7 +94,7 @@ body {
   color: #2d4567;
 }
 .nfot-soclist li:nth-child(4) a {
-  color: #ff0000;
+  color: #2d4567;
 }
 .nav li a {
   border: 1px solid;
@@ -129,7 +129,7 @@ body {
 .btn-outline,
 .btn-outline:hover,
 .btn-outline:focus {
-  background: linear-gradient(90deg, #ff4c02 0%, #ff8c02 100%);
+  background: linear-gradient(90deg, #2d4567 0%, #2d4567 100%);
   cursor: pointer;
   border: 2px solid #fff !important;
   margin-top: 1rem;
@@ -140,7 +140,7 @@ body {
 }
 
 .downapp {
-  background: linear-gradient(90deg, #ff4c02 0%, #ff8c02 100%),
+  background: linear-gradient(90deg, #2d4567 0%, #2d4567 100%),
     url(/src//assets//images//appbg.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -154,7 +154,7 @@ p {
   border: 20px solid #fff;
 }
 .footerbg {
-  background: linear-gradient(90deg, #ff4c02 0%, #ff8c02 100%),
+  background: linear-gradient(90deg, #2d4567 0%, #2d4567 100%),
     url(/src//assets//images//appbg.jpg) no-repeat center;
 }
 .background {
@@ -177,7 +177,6 @@ p {
 }
 #student-container {
   width: 100%;
-  height: auto;
   display: block;
   position: relative;
   /* background: url(./assets/images/student-talk.jpg) no-repeat center; */
@@ -371,7 +370,7 @@ button:hover,
 }
 
 #nav li ul li a:hover {
-  background-color: #ff4c02;
+  background-color: #2d4567;
   color: #2d4567;
   /* border-color: #b11e6f; */
 }
@@ -993,7 +992,6 @@ lable {
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
   }
-
   [type="submit"] {
     border: 1px solid #2f5bb7;
     color: #fff;
@@ -1023,7 +1021,6 @@ lable {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-
   .checkbox {
     margin: 0 auto;
   }
@@ -1033,7 +1030,6 @@ lable {
     margin-left: 50px;
     margin-top: 1px;
   }
-
   lable {
     margin-left: -260px;
   }
@@ -1043,3 +1039,4 @@ lable {
   scale: 1.04;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
 }
+

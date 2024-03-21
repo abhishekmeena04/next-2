@@ -6,10 +6,10 @@ import { MdEmail } from "react-icons/md";
 const HeaderTopCntr = () => {
   return (
     <>
-      <section className="header-top flex content-center justify-center">
+      <section className="header-top flex content-center justify-center hidden lg:flex">
         <div className="font-black tracking-wider lg:flex md:justify-between lg:justify-around lg:w-[970px] xl:w-[1500px] 2xl:w-[1170px]">
           <p className="mt-3 top-header-text font-spartan text-center text-[13px] md:text-[15px]">
-            Welcome to the New National Security Services
+            The New National Security Services
           </p>
           <div className="flex flex-col sm:flex-row md:flex-row items-center">
             <div className="flex items-center justify-center px-[15px] py-[2px]">
@@ -23,7 +23,6 @@ const HeaderTopCntr = () => {
                   <span className="mr-2">+91-20-65290835</span>
                 </a>
               </div>
-
               <div>
                 {" "}
                 <a

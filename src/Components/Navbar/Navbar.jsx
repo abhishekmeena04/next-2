@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderTopCntr from "./header-top/HeaderTopCntr";
 import Dropdown from "./Dropdown";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [isClick, setisClick] = useState();
+  const toggleNavbar = () => {
+    setisClick(!isClick);
+  };
   return (
     <>
       <HeaderTopCntr />
-      <nav className="flex content-center container lg:w-[1070px] xl:w-[1170px] md:w-[768px] 2xl:w-[1170px] flex content-center 2xl:justify-between  xl:justify-between text-center md:justify-center justify-center lg:flex-row xl:flex-row 2xl:flex-row md:flex-col flex-wrap">
+      {/* <nav className="flex content-center container lg:w-[1070px] xl:w-[1170px] md:w-[768px] 2xl:w-[1170px] flex content-center 2xl:justify-between  xl:justify-between text-center md:justify-center justify-center lg:flex-row xl:flex-row 2xl:flex-row md:flex-col flex-wrap">
         <div className="dropnav-full-width">
           <div id="logo">
             <a href="./">
@@ -60,12 +64,6 @@ const Navbar = () => {
                 >
                   Services
                 </Link>
-
-                {/* <ul>
-                  <li>
-                    <a href="#">About Us</a>
-                  </li>
-                </ul> */}
               </li>
               <li>
                 <Link
@@ -78,88 +76,8 @@ const Navbar = () => {
                 >
                   Gallery
                 </Link>
-                {/* <ul>
-                  <li>
-                    <a href="course.php?id=38">Security Guards</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=40">Armed Security Guards</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=24">Unarmed Securtiy Guaerda</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=29">Vehicle Petrol Security</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=12">Hire Off Duty Police</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=35">
-                      Entrance Preparation For N.I.D
-                    </a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=32">Entrance Preparation for NIFT</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=31">Animation Sketching</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=16">
-                      Entrance Preparation for B.F.A
-                    </a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=30">
-                      {" "}
-                      1 to 3 Months Certificate Hobby Course{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=25">Kids Diploma (L-2)</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=39">Kids Diploma (L-1)</a>
-                  </li>
-                  <li>
-                    <a href="course.php?id=36">
-                      Hobby Certificate Course For Kids
-                    </a>
-                  </li>
-                </ul> */}
               </li>
-              {/* <li>
-                <a href="">Industries</a>
-                <ul>
-                  <li>
-                    <a href="activity-page.php?id=8">Workshops</a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=2">Outdoor</a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=10">
-                      National Art Seminar &amp; Award Show, 2018
-                    </a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=4">Media Coverage</a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=9">Judging Art Events</a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=5">Exhibition</a>
-                  </li>
-                  <li>
-                    <a href="activity-page.php?id=7">Daily Activities</a>
-                  </li>
-                </ul>
-              </li> */}
-              {/* <li>
-                <a href="">Surveillancee</a>
-              </li> */}
+
               <li>
                 <Link
                   to="About"
@@ -171,22 +89,6 @@ const Navbar = () => {
                 >
                   About Us
                 </Link>
-                {/* <ul>
-                  <li>
-                    <a href="students-area.php?id=4">Work by Kids Level-2</a>
-                  </li>
-                  <li>
-                    <a href="students-area.php?id=3">Work by Kids Level-1</a>
-                  </li>
-                  <li>
-                    <a href="students-area.php?id=1">Sketching</a>
-                  </li>
-                  <li>
-                    <a href="students-area.php?id=2">
-                      Paintings done by Students of Level-3
-                    </a>
-                  </li>
-                </ul> */}
               </li>
               {
                 <li>
@@ -206,6 +108,125 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+      </nav> */}
+      <nav className="bg-[#2d4567]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img className="logo-img h-12" src="/img.jpeg" alt="" />
+              </div>
+            </div>
+            <div className="hidden md:block">
+              <div className="ml-4 flex items-center space-x-4">
+                <Link
+                  href="/"
+                  className="text-white hover:bg-white hover:text-black rounded-lg p-2"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="/"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                >
+                  Services
+                </Link>
+                <Link
+                  href="/"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                >
+                  Gallery
+                </Link>
+                <Link
+                  href="/"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+            <div className="md:hidden flex items-center">
+              <button
+                className="inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                onClick={toggleNavbar}
+              >
+                {isClick ? (
+                  <svg
+                    className="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="rounded"
+                      strokeLinejoin="rounded"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="rounded"
+                      strokeWidth={2}
+                      d="M4 6h16M4 12h16m-7 6h7"
+                    ></path>
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+        {isClick && (
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <Link
+                href="/"
+                className="text-white block hover:bg-white hover:text-black rounded-lg p-2 pl-4"
+              >
+                Home
+              </Link>
+              <Link
+                href="/"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+              >
+                Services
+              </Link>
+              <Link
+                href="/"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+              >
+                Gallery
+              </Link>
+              <Link
+                href="/"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+              >
+                About
+              </Link>
+              <Link
+                href="/"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+              >
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        )}
       </nav>
     </>
   );

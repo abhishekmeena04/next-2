@@ -41,42 +41,42 @@ const itemData = [
     img: think,
     title: "Bed",
   },
-  {
-    img: girl,
-    title: "Bed",
-  },
-  {
-    img: bottle,
-    title: "Books",
-  },
-  {
-    img: god,
-    title: "Kitchen",
-  },
-  {
-    img: sun,
-    title: "Blinds",
-  },
-  {
-    img: topi,
-    title: "Chairs",
-  },
-  {
-    img: krishna,
-    title: "Laptop",
-  },
-  {
-    img: pink,
-    title: "Doors",
-  },
-  {
-    img: chair,
-    title: "Coffee",
-  },
-  {
-    img: cock,
-    title: "Storage",
-  },
+  // {
+  //   img: girl,
+  //   title: "Bed",
+  // },
+  // {
+  //   img: bottle,
+  //   title: "Books",
+  // },
+  // {
+  //   img: god,
+  //   title: "Kitchen",
+  // },
+  // {
+  //   img: sun,
+  //   title: "Blinds",
+  // },
+  // {
+  //   img: topi,
+  //   title: "Chairs",
+  // },
+  // {
+  //   img: krishna,
+  //   title: "Laptop",
+  // },
+  // {
+  //   img: pink,
+  //   title: "Doors",
+  // },
+  // {
+  //   img: chair,
+  //   title: "Coffee",
+  // },
+  // {
+  //   img: cock,
+  //   title: "Storage",
+  // },
   {
     img: cow,
     title: "Candle",
@@ -113,18 +113,18 @@ const itemData = [
     img: harry,
     title: "Storage",
   },
-  {
-    img: pakshi,
-    title: "Candle",
-  },
-  {
-    img: flower,
-    title: "Flower",
-  },
-  {
-    img: women,
-    title: "Women",
-  },
+  // {
+  //   img: pakshi,
+  //   title: "Candle",
+  // },
+  // {
+  //   img: flower,
+  //   title: "Flower",
+  // },
+  // {
+  //   img: women,
+  //   title: "Women",
+  // },
 ];
 
 const gallery = () => {

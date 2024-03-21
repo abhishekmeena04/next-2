@@ -10,7 +10,7 @@ const WelcomeCntr = () => {
         <div id="heading">
           <h1 className="font-lexend text-[19px] mt-[5px] mb-[20px] lg:text-[36px] xl:text-[36px]  2xl:text-[36px]">
             Welcome to{" "}
-            <span className="text-[#ff4c02]">
+            <span className="text-[#2d4567]">
               The New National Security Services{" "}
               <h1 className="text-[#000000]">SERVICE OFFERED BY OUR AGENCY</h1>
             </span>
