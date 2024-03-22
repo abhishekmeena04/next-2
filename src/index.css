@@ -9,7 +9,7 @@ body {
   background: #fff;
   margin: 0px;
   padding: 0px;
-  background: url(../src//assets//images//bg.jpg) repeat;
+  /* background: url(../src//assets//images//bg.jpg) repeat; */
   background-size: 100% 100%;
   background-attachment: fixed;
   font-family: "Spartan", sans-serif !important;
@@ -32,6 +32,9 @@ body {
   font-style: normal;
   font-weight: normal;
   src: local("roboto"), url("./assets//fonts//Roboto.ttf") format("woff");
+}
+::-webkit-scrollbar {
+  display: none;
 }
 .header-top {
   background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
@@ -64,7 +67,7 @@ body {
   padding-bottom: 2rem;
   /* background-color: #f9f9f9; */
   color: #000;
-  background: url(../images/fotbg2.jpeg) no-repeat;
+  /* background: url(../images/fotbg2.jpeg) no-repeat; */
   background-size: cover;
   background-position: center;
 }
@@ -1039,4 +1042,135 @@ lable {
   scale: 1.04;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
 }
+/* nav */
+.logo-img {
+  height: 8vh;
+}
+/* nav */
 
+/* nav-top */
+.nav-top {
+  height: 5vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+.nav-top {
+  height: 5vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+}
+.nav-top-first {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-top-first a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-top-second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-top-second a .facebook:hover {
+  cursor: pointer;
+  fill: rgb(0, 0, 0);
+}
+.nav-top-second a .twitter:hover {
+  cursor: pointer;
+  fill: rgb(0, 0, 0);
+}
+.nav-top-second a .instagram:hover {
+  cursor: pointer;
+  fill: rgb(0, 0, 0);
+}
+.nav-top-second a .youtube:hover {
+  cursor: pointer;
+  fill: rgb(0, 0, 0);
+}
+
+/* nav-top */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-top {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .nav-top {
+    padding: 25px 50px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  .nav-top {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+}
+
+.slide {
+  position: relative;
+  left: 0%;
+  width: 100%;
+  height: 80vh;
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  transform: translateY(-50%);
+  font-size: 40px;
+  background-color: #00000069;
+  padding: 10px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  font-size: 40px;
+  background-color: #00000069;
+  padding: 10px;
+}

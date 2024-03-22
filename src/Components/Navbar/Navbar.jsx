@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import HeaderTopCntr from "./header-top/HeaderTopCntr";
 import Dropdown from "./Dropdown";
 import { Link } from "react-scroll";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   const [isClick, setisClick] = useState();
@@ -109,43 +112,43 @@ const Navbar = () => {
           </div>
         </div>
       </nav> */}
-      <nav className="bg-[#2d4567]">
+      <nav className="bg-[#2d4567] py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="logo-img h-12" src="/img.jpeg" alt="" />
+                <img className="logo-img" src="/img.jpeg" alt="" />
               </div>
             </div>
             <div className="hidden md:block">
               <div className="ml-4 flex items-center space-x-4">
                 <Link
                   href="/"
-                  className="text-white hover:bg-white hover:text-black rounded-lg p-2"
+                  className="text-white hover:bg-white hover:text-black rounded-lg p-2 font-lexend"
                 >
                   Home
                 </Link>
                 <Link
-                  href="/"
-                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                  href="/Services"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2 font-lexend"
                 >
                   Services
                 </Link>
                 <Link
                   href="/"
-                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2 font-lexend"
                 >
                   Gallery
                 </Link>
                 <Link
-                  href="/"
-                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                  href="/about"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2 font-lexend"
                 >
                   About
                 </Link>
                 <Link
                   href="/"
-                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2"
+                  className="text-white hover:bg-white hover:text-black rounded-lg  p-2 font-lexend"
                 >
                   Contact Us
                 </Link>
@@ -196,31 +199,31 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
                 href="/"
-                className="text-white block hover:bg-white hover:text-black rounded-lg p-2 pl-4"
+                className="text-white block hover:bg-white hover:text-black rounded-lg p-2 pl-4 font-lexend"
               >
                 Home
               </Link>
               <Link
                 href="/"
-                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4 font-lexend"
               >
                 Services
               </Link>
               <Link
                 href="/"
-                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4 font-lexend"
               >
                 Gallery
               </Link>
               <Link
                 href="/"
-                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4 font-lexend"
               >
                 About
               </Link>
               <Link
                 href="/"
-                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4"
+                className="text-white block hover:bg-white hover:text-black rounded-lg  p-2 pl-4 font-lexend"
               >
                 Contact Us
               </Link>
